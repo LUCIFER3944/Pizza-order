@@ -5,6 +5,7 @@ public class pizzaOrder3 {
     static String[] pizzas = {"Margherita", "Pepperoni", "Veggie", "BBQ Chicken", "Hawaiian"};
 
     // Display the pizza options
+  
     static void displayOptions() {
         System.out.println("Choose a pizza:");
         for (int i = 0; i < pizzas.length; i++) {
