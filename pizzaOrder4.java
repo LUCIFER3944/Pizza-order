@@ -14,9 +14,11 @@ public class pizzaOrder4 {
     public static void main(String[] args) {
         pizzaOrder4 pizzaOrder = new pizzaOrder4();
         calculatedata ob = new calculatedata();
-        getdata od = new getdata();
+        getdata obj = new getdata();
     
-        od.getdata();  // Gather input data
+        obj.getData();
+
+          // Gather input data
         ob.calculatedata();  // Perform calculations
     
         pizzaOrder.showdata();  
